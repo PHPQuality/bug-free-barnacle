@@ -79,3 +79,7 @@ Je kan deze tests uitvoeren door vanuit de huidige folder het volgende commando 
 ```
 
 ## Inleveren
+Om het in te leveren kan je `./pack.sh` runnen in je terminal (git bash voor windows).
+Vervolgens kan je de `results.tar.gz` file inleveren. De link voor het inleveren krijg je aan het begin van de opdracht.
+Mocht je problemen hebben bij het inleveren dan moet je dit maar even laten weten.
+
