@@ -34,11 +34,10 @@ Simpel toch? Maar dit is waar het interessant wordt:
 * Zodra de verkoop datum voorbij is vergaat iets twee keer zo snel
 * De waarde is nooit negatief
 * “Aged Brie” wordt juist meer waard, hoe ouder het wordt.
-8 De kwaliteit kan nooit meer dan 50 zijn.
+* De kwaliteit kan nooit meer dan 50 zijn.
 * “Sulfuras, Hand of Ragnaros'”, een legendarisch item, gaat nooit achteruit in kwaliteit, of in verkoopdatum.
 * “Backstage passes to a TAFKAL80ETC concert”, net als “Aged Brie”, worden meer waard naarmate ze dichter bij de verkoop datum worden;
-* De waarde gaat met 2 omhoog wanneer er 10 of minder dagen tot de verkoopdatum zijn, en zelfs met 3 wanneer er 5 of minder dagen zijn tot de verkoopdatum.
-* Maar de waarde daalt naar 0 op het moment dat de verkoopdatum verstreken is.
+  * De waarde gaat met 2 omhoog wanneer er 10 of minder dagen tot de verkoopdatum zijn, en zelfs met 3 wanneer er 5 of minder dagen zijn tot de verkoopdatum. Maar de waarde daalt naar 0 op het moment dat de verkoopdatum verstreken is.
 
 Sinds kort hebben we “Conjured” items, welke twee keer zo snel hun waarde verliezen 
 als de normale versie. Het is jouw taak om te zorgen dat het systeem hiermee overweg kan.
