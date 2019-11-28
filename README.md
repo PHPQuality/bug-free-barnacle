@@ -13,7 +13,7 @@ vagrant ssh
 
 ======================================
 Gilded Rose Requirements Specificatie
-======================================
+=====================================
 
 Welcome bij het Gilded Rose team. Zoals je misschien weet zijn we een kleine herberg in een prominente stad, 
 gerund door een vriendelijke herbergier genaamd Allison. 
@@ -39,8 +39,8 @@ Simpel toch? Maar dit is waar het interessant wordt:
 * “Backstage passes to a TAFKAL80ETC concert”, net als “Aged Brie”, worden meer waard naarmate ze dichter bij de verkoop datum worden;
   * De waarde gaat met 2 omhoog wanneer er 10 of minder dagen tot de verkoopdatum zijn, en zelfs met 3 wanneer er 5 of minder dagen zijn tot de verkoopdatum. Maar de waarde daalt naar 0 op het moment dat de verkoopdatum verstreken is.
 
-Sinds kort hebben we “Conjured” items, welke twee keer zo snel hun waarde verliezen 
-als de normale versie. Het is jouw taak om te zorgen dat het systeem hiermee overweg kan.
+Nu willen we ook "Conjured" items aanbieden. Deze zijn te herkennen aan het feit dat hun naam begint met "Conjured".
+Deze vergaan 2 keer zo snel als normale items.
 
 Je mag zoveel aanpassingen maken in de ‘tick’ methode, zolang alles maar blijft werken zoals het nu doet. 
 De Item class, en de constructor van de Store class mag je niet aanpassen. 
@@ -50,6 +50,12 @@ En ter duidelijkheid, een item kan nooit een kwaliteit hoger hebben dan 50, beha
 omdat deze legendarisch is. Deze kan een kwaliteit van maximaal 80 hebben. Wij zorgen ervoor dat de Items de correcte 
 waardes hebben als we ze invoeren, dus dit hoeft het systeem niet na te kijken.
 
+## Jouw opdracht
+
+Jouw opdracht bestaat uit de volgende punten:
+1. Voeg de nieuwe functionaliteit toe
+2. Zorg dat alle oude functionaliteit hetzelfde blijft.
+3. Refactor de code zodat deze leesbaarder wordt.
 
 ### Belangrijk
 
