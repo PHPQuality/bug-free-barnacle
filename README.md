@@ -21,7 +21,8 @@ Wij kopen en verkopen alleen de beste goederen.
 Helaas gaan onze goederen achteruit in kwaliteit wanneer deze dichter bij de 
 verkoopdatum komen. We hebben een systeem wat onze voorraad bijhoudt. 
 Dit systeem is gemaakt door een knul genaamd Leeroy, wie sindsdien verder is gegaan met andere avonturen. 
-Jouw taak is om het systeem te verbeteren en beter onderhoudbaar te maken. Allereerst een introductie van het systeem:
+Jouw taak is om nieuwe functionaliteit toe te voegen, zo dat we een nieuwe 
+categorie van goederen kunnen verkopen. Allereerst een introductie van het systeem:
 
 Alle goederen hebben een ‘sell_in’ waarde welke het aantal dagen aangeeft 
 dat we hebben om deze te verkopen.
@@ -38,6 +39,13 @@ Simpel toch? Maar dit is waar het interessant wordt:
 * “Backstage passes to a TAFKAL80ETC concert”, net als “Aged Brie”, worden meer waard naarmate ze dichter bij de verkoop datum worden;
   * De waarde gaat met 2 omhoog wanneer er 10 of minder dagen tot de verkoopdatum zijn, en zelfs met 3 wanneer er 5 of minder dagen zijn tot de verkoopdatum. Maar de waarde daalt naar 0 op het moment dat de verkoopdatum verstreken is.
 
+Nu willen we ook "Conjured" items aanbieden. Deze zijn te herkennen aan het feit dat hun naam begint met "Conjured".
+Deze vergaan 2 keer zo snel als normale items.
+
+Je mag zoveel aanpassingen maken in de ‘tick’ methode, zolang alles maar blijft werken zoals het nu doet. 
+De Item class, en de constructor van de Store class mag je niet aanpassen. 
+Deze gebruiken we ook nog in andere systemen, dus die zouden kapot gaan als je deze aanpast.
+
 En ter duidelijkheid, een item kan nooit een kwaliteit hoger hebben dan 50, behalve “Sulfuras, Hand of Ragnaros'”, 
 omdat deze legendarisch is. Deze kan een kwaliteit van maximaal 80 hebben. Wij zorgen ervoor dat de Items de correcte 
 waardes hebben als we ze invoeren, dus dit hoeft het systeem niet na te kijken.
@@ -46,12 +54,9 @@ waardes hebben als we ze invoeren, dus dit hoeft het systeem niet na te kijken.
 
 Jouw opdracht bestaat uit de volgende punten:
 
-1. Zorg dat alle oude functionaliteit hetzelfde blijft.
-2. Refactor de code zodat deze leesbaarder wordt.
-
-Je mag zoveel aanpassingen maken in de ‘tick’ methode, zolang alles maar blijft werken zoals het nu doet. 
-De Item class, en de constructor van de Store class mag je niet aanpassen. 
-Deze gebruiken we ook nog in andere systemen, dus die zouden kapot gaan als je deze aanpast.
+1. Voeg de nieuwe functionaliteit toe 
+2. Zorg dat alle oude functionaliteit hetzelfde blijft.
+3. Refactor de code zodat deze leesbaarder wordt.
 
 ### Belangrijk
 
